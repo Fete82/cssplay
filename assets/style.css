@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.flag-container {
+    margin: auto;
+    background-color: blue;
+    height: 300px;
+    width: 400px;
+}
+
+.horizontal-line,
+.vertical-line {
+    background-color: rgb(255, 238, 0);
+}
+
+.horizontal-line {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 50%;
+}
+
+.vertical-line {
+    height: 100%;
+    width: 50px;
+    position: relative;
+    left: 30%;
+}

@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="flag-container">
-            <div class="horizontal-line"></div>
-            <div class="vertical-line"></div>
-        </div>
-    </div>
+    <div class="reflection"></div>
 </body>
 </html>

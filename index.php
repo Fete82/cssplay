@@ -15,7 +15,7 @@
 <body>
     <div class="reflection">
         <div class="text-content">
-            <h1>Taxation is theft</h1>
+            <h1>Inflation is theft.</h1>
         </div>
     </div>
 </body>

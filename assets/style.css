@@ -53,8 +53,8 @@ body {
 
 
 .text-content {
-    text-shadow: -0.5px -1px 0.5px #444;
-    margin-top: 50px;
+    text-shadow: -1px -1px 0.5px rgb(91, 91, 91);
+    margin-top: 20px;
     font-family: 'Roboto Mono', monospace;
     color: rgb(255, 255, 255);
     font-size: 22px;

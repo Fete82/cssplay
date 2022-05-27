@@ -16,9 +16,10 @@ body {
     
     /* Text properties */
 
-    font-family: 'Great Vibes', cursive;
-    color: white;
-    font-size: 40px;
+
+
+    display: flex;
+    flex-direction: column;
                 
 }
 
@@ -49,3 +50,18 @@ body {
     z-index: 1;
     opacity: 0.9;
 }
+
+
+.text-content {
+    text-shadow: -0.5px -1px 0.5px #444;
+    margin-top: 50px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    display: block;
+    padding-left: 39px;
+}
+/*
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
+*/

@@ -44,10 +44,11 @@ body {
 
 .text-content {
     margin: 0 auto;
+    margin-top: 40px;
     text-shadow: -1px -1px 0.5px rgb(143, 143, 143);
     font-family: 'Roboto Mono', monospace;
     color: rgb(255, 255, 255);
-    font-size: 22px;
+    font-size: 20px;
     display: block;
 }
 /*

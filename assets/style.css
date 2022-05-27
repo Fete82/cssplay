@@ -43,13 +43,12 @@ body {
 }
 
 .text-content {
+    margin: 0 auto;
     text-shadow: -1px -1px 0.5px rgb(143, 143, 143);
-    margin-top: 20px;
     font-family: 'Roboto Mono', monospace;
     color: rgb(255, 255, 255);
     font-size: 22px;
     display: block;
-    padding-left: 39px;
 }
 /*
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }

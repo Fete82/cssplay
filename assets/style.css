@@ -1,12 +1,21 @@
 body {
-    margin-top: 100px;
+    margin: auto;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     width: 1200px;
+    height: 100vh;
     margin: auto;
+    perspective: 100px;
+}
+
+.content {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 50px;
 }
 
 .reflection1 {

@@ -25,6 +25,9 @@
             </div>
         </div>
     </div>
+    <div class="content">
+        <h2>This is just a footer</h2>
+    </div>
 </body>
 
 </html>

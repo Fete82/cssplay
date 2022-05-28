@@ -1,12 +1,27 @@
 body {
     margin-top: 100px;
 }
-.reflection {
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
     margin: auto;
-    width: 600px;
-    height: 399px;
-    position: relative;
+}
+
+.reflection1 {
     background: url("../assets/images/background.jpg");
+}
+
+.reflection2 {
+    background: url("../assets/images/background6.jpg");
+}
+.reflection1,
+.reflection2 {
+    margin: auto;
+    width: 500px;
+    height: 339px;
+    position: relative;
     background-size: cover;
     background-position: bottom;
     border-radius: 1em;
@@ -15,42 +30,46 @@ body {
     flex-direction: column;
 }
 
-.reflection::after {
+.reflection1::after,
+.reflection2::after {
     border-radius: 0 0 1em 1em;
     background-size: inherit;
     background-position: bottom;
     content: "";
     background-image: inherit;
     width: inherit;
-    height: 40%;
+    height: 45%;
     position: absolute;
-    bottom: -41%;
+    bottom: -46%;
     transform: scaleY(-1);
-    opacity: 0.5;
+    opacity: 0.4;
     
 }
 
-.reflection::before {
+.reflection1::before,
+.reflection2::before {
     border-radius: 1em 1em 0 0;
     content: "";
     width: inherit;
-    height: 42%;
+    height: 45%;
     position: absolute;
-    bottom: -43%;
-    background: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), white);
+    bottom: -46%;
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0.2), white);
     z-index: 1;
     opacity: 0.9;
 }
 
-.text-content {
+.text-content1,
+.text-content2 {
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     text-shadow: -1px -1px 0.5px rgb(143, 143, 143);
     font-family: 'Roboto Mono', monospace;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 17px;
     display: block;
 }
+
 /*
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }

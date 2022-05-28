@@ -13,9 +13,16 @@
 </head>
 
 <body>
-    <div class="reflection">
-        <div class="text-content">
-            <h1>Inflation is theft.</h1>
+    <div class="container">
+        <div class="reflection1">
+            <div class="text-content1">
+                <h1>Inflation is theft.</h1>
+            </div>
+        </div>
+        <div class="reflection2">
+            <div class="text-content2">
+                <h1>Buy Bitcoin.</h1>
+            </div>
         </div>
     </div>
 </body>

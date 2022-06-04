@@ -79,7 +79,200 @@ body {
     display: block;
 }
 
+.footer-content {
+    margin-top: 80vh;
+}
+
+  .footer-content h1, h2 {
+    display: inline-block;
+    width: 100%;
+    font-family: "Helvetica Neue", "Arial";
+    font-size: 3em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;  
+    text-align: center;
+  }
+  
+  .footer-content h1 {
+    color: #364e65;
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* TEXT-REFLECT CSS */
+  
+  .text-reflect, .text-reflect:before, .text-reflect span {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-reflect, .text-reflect:before, .text-reflect:after {
+    position: relative;
+  }
+  
+  .text-reflect {
+    top: -60px;
+  }
+  
+  .text-reflect:before {
+    content: 'this is a footer';
+    top: 95px;
+    transform: scale(1, -1);
+    backface-visibility: visible; 
+    z-index: 1;
+  }
+  
+  .text-reflect:after {
+    content: '';
+    display: block;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+    background-image: linear-gradient(to bottom, rgba(255,255,255, .4) 0%, rgba(255, 255, 255, 1) 50%);
+    z-index: 2;
+  }
+
+
 /*
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
 */
+.footer-content {
+    opacity: 1;
+  }
+
+.subscribe-container {
+  margin-top: 100px;
+}
+
+.input-container {
+  display: table;
+  background-color: rgb(255, 255, 255);
+  width: 680px;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.input-fields {
+  height: 150;
+  padding: 10px 20px 30px 20px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  margin: auto;
+}
+
+
+.input-fields h1 {
+  color: rgb(55, 55, 55);
+}
+
+
+
+.input-forms {
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-forms input {
+  font-size: 20px;
+  height: 46px;
+  width: 300px;
+  padding-left: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  outline: none;
+  color: rgb(78, 78, 78);
+  background-color: rgb(250, 250, 250);
+}
+
+
+.input-forms input::placeholder {
+  color: rgb(166, 166, 166);
+}
+
+.input-forms input:focus {
+  border: 1px solid rgb(216, 216, 216);
+}
+
+
+input[type=button] {
+  background-color: #00b7ff;
+  width: 90px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  font-size: 16px;
+}
+
+input[type=button],
+input {
+  height: 50px;
+}
+
+input[type=button]:hover {
+  background-color: #4bccff;
+}
+
+.border-gradient {
+  height: 70vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: rgb(255, 255, 255);
+}
+
+.module-border-wrap {
+  max-width: 700px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, rgb(0, 116, 225), rgb(232, 0, 232));
+  padding: 3px;
+}
+
+.module {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+  background: rgb(255, 255, 255);
+  color: rgb(67, 67, 67);
+  padding: 3rem;
+}
+
+#jsContainer {
+  background-color: black;
+  width: 100px;
+  margin: auto;
+}
+
+.containerJs, #contentJs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#contentJs {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 50%;
+  min-height: 100px;
+}
+
+.gradient-button {
+  font-size: 18px;
+}
+
+.gradient-buttons-container {
+
+}
